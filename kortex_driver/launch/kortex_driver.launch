@@ -3,7 +3,7 @@
     
     <!-- Arm and tool configuration -->
     <arg name="arm" default="gen3"/> <!-- gen3 is the only supported arm for now -->
-    <arg name="gripper" default=""/> <!-- "robotiq_2f_85" is the only supported gripper for now, as well as no gripper ("") -->
+    <arg name="gripper" default="robotiq_2f_85"/> <!-- "robotiq_2f_85" is the only supported gripper for now, as well as no gripper ("") -->
     <arg name="robot_name" default="my_$(arg arm)"/>
 
     <!-- Kortex API options -->
