@@ -58,6 +58,33 @@
         <joint name="joint_6" value="0" />
         <joint name="joint_7" value="0" />
     </group_state>
+    <group_state name="demo_pose" group="arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="0" />
+        <joint name="joint_3" value="3.14" />
+        <joint name="joint_4" value="-1.57" />
+        <joint name="joint_5" value="0" />
+        <joint name="joint_6" value="0" />
+        <joint name="joint_7" value="1.57" />
+    </group_state>
+    <group_state name="wave_right" group="arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="0" />
+        <joint name="joint_3" value="3.14" />
+        <joint name="joint_4" value="-1.57" />
+        <joint name="joint_5" value="-0.57" />
+        <joint name="joint_6" value="1.57" />
+        <joint name="joint_7" value="1.57" />
+    </group_state>
+    <group_state name="wave_left" group="arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="0" />
+        <joint name="joint_3" value="3.14" />
+        <joint name="joint_4" value="-1.57" />
+        <joint name="joint_5" value="0.57" />
+        <joint name="joint_6" value="1.57" />
+        <joint name="joint_7" value="1.57" />
+    </group_state>
     <group_state name="opened" group="gripper">
         <joint name="gripper_finger1_finger_tip_joint" value="0" />
         <joint name="gripper_finger1_inner_knuckle_joint" value="0" />
